@@ -8,8 +8,8 @@
 
 ## Summary:
 
-1. Installing LaTeX.  
-2. Document Formats.
+1. [Installing LaTeX.](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/1-%20Installing%20Latex.md) 
+2. [Document Formats.](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/2-%20Document%20Formats.md)
 
 ## Contributing 🖇️
 
