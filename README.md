@@ -8,8 +8,8 @@
 
 ## Summary:
 
-1- Installing LaTeX.
-2- Document Formats
+1. Installing LaTeX.  
+2. Document Formats.
 
 ## Contributing 🖇️
 
