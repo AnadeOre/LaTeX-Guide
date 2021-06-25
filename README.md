@@ -10,6 +10,7 @@
 
 1. [Installing LaTeX.](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/1-%20Installing%20Latex.md) 
 2. [Document Formats.](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/2-%20Document%20Formats.md)
+3. [Styling](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/3-%20Styling.md)
 
 ## Contributing 🖇️
 
