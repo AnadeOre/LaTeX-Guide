@@ -4,7 +4,7 @@
 
 If you are still not sure of weather you'll like LaTeX or not, it might be a good idea to skip this step and instead use [Overleaf](https://www.overleaf.com/).
 
-1- Download and install the TeX/LaTeX distribution from [MiKTeX](https://miktex.org/download) for your operating system.
+1. Download and install the TeX/LaTeX distribution from [MiKTeX](https://miktex.org/download) for your operating system.
 
 ###### if You wanna know more about MiKTeX go to their [organization](https://github.com/MiKTeX) and check out their repositories!
 
@@ -12,7 +12,7 @@ If you are still not sure of weather you'll like LaTeX or not, it might be a goo
 
 **At a certain point when installing MiKTeX it will give us an options about how to install packages, we recommend you choosing the option "On the fly".**
 
-2- Choose a LaTeX Editor
+2. Choose a LaTeX Editor
 
 We have quite a few options here, I will give you some of my personal recommendations:
 
@@ -40,6 +40,7 @@ We have quite a few options here, I will give you some of my personal recommenda
 
 That's all you needed to do to get started with Latex. Welcome!
 
+Go to [next Section.W](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/2-%20Document%20Formats.md)
 
 **Useful links**
 

@@ -5,17 +5,18 @@
 
 ##### The first information processed by LaTeX is what kind of document it should read, this kinds of documents are called **classes** and they come in many shapes and sizes. Let's list them and explain them one by one:  
 
-1. **Document Classes**  `\documentclass[options]{class}`
-    1.1. *article*: For articles in cientific magazines, short documents, software documentation, invitations, etc. 
-    1.2. *proc*: For proceedings, based in the *article* class.
-    1.3. *minimal*: Is the smallest you can go, it establishes a uniquie page and font size, used for debugging.
-    1.4. *report*: For longer articles that may contain chapters, small books and thesis.
-    1.5. *book*: For books, what else?
-    1.6. *beamer*: For slildeshow
 
-2. **Options inside Document Classes**
-    2.1. *Font size*: Optional, custom set to 10pt.
-    2.2. *Paper size*: A few possible options are: `a4paper`, `letterpaper`.  
+1. **Document Classes**  `\documentclass[options]{class}`
+    1. *article*: For articles in cientific magazines, short documents, software documentation, invitations, etc. 
+    1. *proc*: For proceedings, based in the *article* class.
+    1. *minimal*: Is the smallest you can go, it establishes a uniquie page and font size, used for debugging.
+    1. *report*: For longer articles that may contain chapters, small books and thesis.
+    1. *book*: For books, what else?
+    1. *beamer*: For slildeshow
+
+1. **Options inside Document Classes**
+    1. *Font size*: Optional, custom set to 10pt.
+    1. *Paper size*: A few possible options are: `a4paper`, `letterpaper`.  
     There are many options, for now, this two will suffice, the other ones will be introduced when necessary.  
 
 ### How do we go about using all this?
@@ -61,4 +62,4 @@ And it looks like this:
 </div>
 
 
-In the next Chapter we will learn how to style the page with a title, changing font sizes and a few types of spaces.
+In the [next section](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/3-%20Styling.md) we will learn how to style the page with a title, changing font sizes and a few types of spaces.
