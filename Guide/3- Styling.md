@@ -68,7 +68,7 @@ LaTeX has very funny names for font sizes that will make you always remember the
 Here is an example of code:
 
 ```latex
-        \noindent\tiny{Tiny text}\\
+  \noindent\tiny{Tiny text}\\
 	\scriptsize{Scriptsize text}\\
 	\footnotesize{Footnotesize text}\\
 	\small{Small text}\\
@@ -98,7 +98,7 @@ As expected, font stylings are as easy as font sizes, here is the list:
 * `\emph{}`: Emphasized,
 
 ```latex
-        \noindent\textrm{Roman}\\
+  \noindent\textrm{Roman}\\
 	\textit{Italics}\\
 	\textsl{Slanted}\\
 	\textsc{Small caps}\\
