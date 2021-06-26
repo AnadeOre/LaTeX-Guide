@@ -1,0 +1,106 @@
+\documentclass{article}
+
+\author{Latex Guide!}
+\title{Lists and Columns}
+\date{}
+
+\begin{document}
+	\maketitle
+	
+	\begin{enumerate}
+		\item This is the item 1 in Enumerate enviroment.
+		\item This is the second one!
+	\end{enumerate}
+
+	\begin{itemize}
+		\item Bullet type item.
+		\item If I add more, they will all be bullets.
+	\end{itemize}
+	
+	\begin{description}
+		\item[Step 1:] Cut the onions.
+		\item[Step 2:] Add oil.
+	\end{description}
+
+\textbf{Nested lists:}
+
+\begin{itemize}
+	\item First level in {\tt itemize}
+	\begin{enumerate}
+		\item First level in {\tt enumerate} (second level globaly)
+		\begin{itemize}
+			\item Second level in {\tt enumerate}
+			(third globaly)
+			\begin{enumerate}
+				\item Second in {\tt enumerate}
+				(fourth globaly)
+				\item Second element in fourth level
+			\end{enumerate}
+			\item Back to third level globaly (second
+			in {\tt itemize})
+		\end{itemize}
+		\item Second level (first one in {\tt enumerate})
+	\end{enumerate}
+	\item First level
+\end{itemize}
+
+
+\textbf{Default way to enumerate}
+
+\begin{enumerate}
+	\item First one.
+	\begin{enumerate}
+		\item Second one.
+		\begin{enumerate}
+			\item Third one.
+			\begin{enumerate}
+				\item Fourth one.
+			\end{enumerate}
+		\end{enumerate}
+	\end{enumerate}
+\end{enumerate}
+	
+	\textbf{Changed way}
+	
+	\renewcommand{\theenumi}{\Roman{enumi}}
+	\renewcommand{\labelenumi}{[\textbf{\theenumi}]}
+	\renewcommand{\theenumii}{\Alph{enumii}}
+	\renewcommand{\labelenumii}{[\textbf{\theenumi}.\textit{\theenumii}]}
+\begin{enumerate}
+	\item First one.
+	\begin{enumerate}
+		\item Second one.
+		\item Second level again
+	\end{enumerate}
+	\item First level again
+\end{enumerate}
+
+\textbf{Default itemize}
+
+\begin{itemize}
+	\item First one.
+	\begin{itemize}
+		\item Second one.
+		\begin{itemize}
+			\item Third one.
+			\begin{itemize}
+				\item Fourth one.
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+
+\textbf{Itemize changed}
+\renewcommand{\labelitemi}{$\circ$}
+\renewcommand{\labelitemii}{$\clubsuit$}
+\renewcommand{\labelitemiii}{$\diamondsuit$}
+\begin{itemize}
+	\item First one.
+	\begin{itemize}
+		\item Second one.
+		\begin{itemize}
+			\item Third one.	
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+\end{document}
