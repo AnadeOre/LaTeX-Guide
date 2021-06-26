@@ -116,4 +116,4 @@ So far, we have this document.
 
 Things are starting to look pretty good!
 
-It is now time for us to make lists and columns to make this document look even better
+It is now time for us to make lists to make this document look even better
