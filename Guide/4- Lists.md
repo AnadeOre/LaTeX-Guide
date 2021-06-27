@@ -1,14 +1,12 @@
-
 ## Lists and Columns
 
-##### Last time we we ended up having a document with lots of font sizes and styles, but that it would have looked better using lists or columns. Lets start with lists.  
-
+##### Last time we we ended up having a document with lots of font sizes and styles, but that it would have looked better using lists or columns. Lets start with lists.
 
 ### Lists
 
 In LaTeX there are 3 types of lists, and as always, their names are super self explanatory.
 
-1. `Enumerate`: Each item in the list is numbered, the numbers start with 1 each time we call the *enviroment*.
+1. `Enumerate`: Each item in the list is numbered, the numbers start with 1 each time we call the _enviroment_.
 2. `Itemize`: Each item has a determined symbol (you can change which symbol you want),
 3. `Description`: Used you add your own label in each item. Useful for steps.
 
@@ -24,7 +22,7 @@ This 3 ways of listing items are 3 different enviroments and each item is added 
 		\item Bullet type item.
 		\item If I add more, they will all be bullets.
 	\end{itemize}
-	
+
 	\begin{description}
 		\item[Step 1:] Cut the onions.
     \item[Step 2:] Add oil.
@@ -39,7 +37,7 @@ So far this is easy and, to be honest, kinda boring. But it's latex, and we know
 
 #### Nested lists
 
-Each one of the enviroments we used before can be used *inside* another enviroment of the same or any other type to up to 4 levels of inclusion in the default configuration. And with that, we can end up having something like this:
+Each one of the enviroments we used before can be used _inside_ another enviroment of the same or any other type to up to 4 levels of inclusion in the default configuration. And with that, we can end up having something like this:
 
 ```latex
 \begin{itemize}
@@ -96,7 +94,7 @@ The default way latex enumerates our items is as follows:
 <img alt="example" src="../Assets/4-Lists/EnumDefault.JPG">
 </div>
 
-Each level is represented with one command: `\theenumi`, `\theenumii`, `\theenumiii` and `\theenumiv`. And the labels used in each label are `\labelenumi`, `\labelenumii`, `\labelenumiii`, `\labelenumiv`. And if we want to change the behaviour of `enumerate` we have to do something called *redefine a command* using the command `\renewcommand{old comand}{new command}` (didn't see that one coming did you?) just before our enumerate enviroment. If we wanted to change only the first two, to show a roman number in the first level and roman.letter in the second one it would look like this
+Each level is represented with one command: `\theenumi`, `\theenumii`, `\theenumiii` and `\theenumiv`. And the labels used in each label are `\labelenumi`, `\labelenumii`, `\labelenumiii`, `\labelenumiv`. And if we want to change the behaviour of `enumerate` we have to do something called _redefine a command_ using the command `\renewcommand{old comand}{new command}` (didn't see that one coming did you?) just before our enumerate enviroment. If we wanted to change only the first two, to show a roman number in the first level and roman.letter in the second one it would look like this
 
 ```latex
 %redefining the first level with \Roman, \roman would be i, ii, iii...
@@ -119,7 +117,6 @@ Each level is represented with one command: `\theenumi`, `\theenumii`, `\theenum
 <img alt="example" src="../Assets/4-Lists/EnumChanged.JPG">
 </div>
 
-
 ###### **Changing `itemize`**
 
 As before, we have the default items as:
@@ -139,11 +136,12 @@ Now for itemize we have the commands `\labelitemi`, `\labelitemii`, `\labelitemi
 	\begin{itemize}
 		\item Second one.
 		\begin{itemize}
-			\item Third one.	
+			\item Third one.
 		\end{itemize}
 	\end{itemize}
 \end{itemize}
 ```
+
 <div align="center">
 <img alt="example" src="../Assets/4-Lists/ItemChanged.JPG">
 </div>

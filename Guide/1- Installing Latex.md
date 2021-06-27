@@ -22,21 +22,17 @@ We have quite a few options here, I will give you some of my personal recommenda
 
 ![TexStudio](../Assets/1-Installing-Latex/TexStudio.png)
 
-
-**TeXnicCenter**: You can dowload it [here](https://www.texniccenter.org/download/). TeXnicCenter provides a clean and modern user interface with an integrated visor and autocompletition among other things. 
+**TeXnicCenter**: You can dowload it [here](https://www.texniccenter.org/download/). TeXnicCenter provides a clean and modern user interface with an integrated visor and autocompletition among other things.
 
 ###### if You wanna know more about TeXnicCenter click [here](https://sourceforge.net/projects/texniccenter/)
 
 ![TexnicCenter](../Assets/1-Installing-Latex/TexnicCenter.png)
-
-
 
 **WinEdt**: Windows users only. You can dowload it [here](http://www.winedt.com/download.html). Paid program - 31 days free licence. WinEdt provides us with lots of useful commands and modifiable shortcuts, making latex writing faster.
 
 ###### Check out their [homepage](http://www.winedt.com/about.html)
 
 ![WinEdt](../Assets/1-Installing-Latex/WinEdt.png)
-
 
 That's all you needed to do to get started with Latex. Welcome!
 
