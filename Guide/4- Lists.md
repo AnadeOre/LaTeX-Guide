@@ -1,6 +1,6 @@
 ## Lists and Columns
 
-##### Last time we we ended up having a document with lots of font sizes and styles, but that it would have looked better using lists or columns. Lets start with lists.
+##### Last time we ended up having a document with lots of font sizes and styles, but that it would have looked better using lists or columns. Let's start with lists.
 
 ### Lists
 
@@ -37,7 +37,7 @@ So far this is easy and, to be honest, kinda boring. But it's latex, and we know
 
 #### Nested lists
 
-Each one of the enviroments we used before can be used _inside_ another enviroment of the same or any other type to up to 4 levels of inclusion in the default configuration. And with that, we can end up having something like this:
+Each one of the environments we used before can be used _inside_ another environment of the same or any other type to up to 4 levels of inclusion in the default configuration. And with that, we can end up having something like this:
 
 ```latex
 \begin{itemize}
@@ -65,11 +65,11 @@ Each one of the enviroments we used before can be used _inside_ another envirome
 <img alt="example" src="../Assets/4-Lists/Lists2.JPG">
 </div>
 
-Things are starting to get better now, but it is still kinda weird, what if I don't like the `-` in that second itemize (and I dont). Well luckily for us, there is a way to change that!!
+Things are starting to get better now, but it is still kinda weird, what if I don't like the `-` in that second itemize (and I don't). Well luckily for us, there is a way to change that!!
 
 #### Changing items styles
 
-The only enviroments we will actually wanna change are `enumerate` and `itemize` because in the `description` one we can do whatever we want already.
+The only environments we will actually wanna change are `enumerate` and `itemize` because in the `description` one we can do whatever we want already.
 
 ###### **Changing `enumerate`**
 
@@ -94,7 +94,7 @@ The default way latex enumerates our items is as follows:
 <img alt="example" src="../Assets/4-Lists/EnumDefault.JPG">
 </div>
 
-Each level is represented with one command: `\theenumi`, `\theenumii`, `\theenumiii` and `\theenumiv`. And the labels used in each label are `\labelenumi`, `\labelenumii`, `\labelenumiii`, `\labelenumiv`. And if we want to change the behaviour of `enumerate` we have to do something called _redefine a command_ using the command `\renewcommand{old comand}{new command}` (didn't see that one coming did you?) just before our enumerate enviroment. If we wanted to change only the first two, to show a roman number in the first level and roman.letter in the second one it would look like this
+Each level is represented with one command: `\theenumi`, `\theenumii`, `\theenumiii` and `\theenumiv`. And the labels used in each label are `\labelenumi`, `\labelenumii`, `\labelenumiii`, `\labelenumiv`. And if we want to change the behaviour of `enumerate` we have to do something called _redefine a command_ using the command `\renewcommand{old comand}{new command}` (didn't see that one coming did you?) just before our enumerate environment. If we wanted to change only the first two, to show a roman number in the first level and roman.letter in the second one it would look like this
 
 ```latex
 %redefining the first level with \Roman, \roman would be i, ii, iii...
@@ -125,7 +125,7 @@ As before, we have the default items as:
 <img alt="example" src="../Assets/4-Lists/ItemDefault.JPG">
 </div>
 
-Now for itemize we have the commands `\labelitemi`, `\labelitemii`, `\labelitemiii`, `\labelitemiv`. And they can take values such as: `\blacksquare`, `\textbullet`, `\circ`, `\clubsuit` or `\diamond`. **This value must be between `$`**. Observe that here it's not necesary to talk about order between items as we did in the `enumerate` enviroment with `theenumi`, because itemize only uses labels. Here is an example:
+Now for itemize we have the commands `\labelitemi`, `\labelitemii`, `\labelitemiii`, `\labelitemiv`. And they can take values such as: `\blacksquare`, `\textbullet`, `\circ`, `\clubsuit` or `\diamond`. **This value must be between `$`**. Observe that here it's not necessary to talk about order between items as we did in the `enumerate` environment with `theenumi`, because itemize only uses labels. Here is an example:
 
 ```latex
 \renewcommand{\labelitemi}{$\circ$}
