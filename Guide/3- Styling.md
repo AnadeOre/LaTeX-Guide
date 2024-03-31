@@ -25,9 +25,9 @@ LaTeX is asking you to provide him with both an author and a title. Let't give i
 
 The only important thing to watch out for is that you have to give the author and title _before_ using `\maketitle`.
 
-`\maketitle` has to go inside our Document enviroment. But `\author` and `\title` not necesarily. I prefer writing this two commands in the preamble, but it's up to you.
+`\maketitle` has to go inside our Document environment. But `\author` and `\title` not necessarily. I prefer writing these two commands in the preamble, but it's up to you.
 
-With all this things our document should look something like this:
+With all these things our document should look something like this:
 
 ```latex
 \documentclass{article}
@@ -46,7 +46,7 @@ With all this things our document should look something like this:
 <img alt="example" src="../Assets/3-Styling/Maketitle.JPG">
 </div>
 
-If you dont like the date you can use `\date{}`, writing the date you want inside the `{}`. If you want no date, you can just leave it empty.
+If you don't like the date you can use `\date{}`, writing the date you want inside the `{}`. If you want no date, you can just leave it empty.
 
 ### Font sizes
 
@@ -83,7 +83,7 @@ The second thing is `\\`. In LaTeX when you do a simple line jump (pressing ente
 
 ### Font styling
 
-As expected, font stylings are as easy as font sizes, here is the list:
+As expected, font styling are as easy as font sizes, here is the list:
 
 - `\textrm{}`: Roman,
 - `\textit{}`: _Italics_,
