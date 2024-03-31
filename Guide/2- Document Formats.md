@@ -36,7 +36,7 @@ All environments use the syntax:
 \end{environment name}
 ```
 
-And yes, you guessed right, `%` in latex is used for comments in the code. If we wanna use the symbol '%' what you do for LaTeX to render it is writen it as `\%`.
+And yes, you guessed right, `%` in latex is used for comments in the code. If we wanna use the symbol '%' what you do for LaTeX to render it is written it as `\%`.
 
 #### The document environment
 
