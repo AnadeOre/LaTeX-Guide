@@ -12,6 +12,7 @@ _This is not an official LaTeX guide_. Just an open source one where [everyone](
 2. [Document Formats.](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/2-%20Document%20Formats.md)
 3. [Styling.](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/3-%20Styling.md)
 4. [Lists.](https://github.com/Uklizdev/LaTeX-Guide/blob/master/Guide/4-%20Lists.md)
+5. [Labelling.](https://github.com/AnadeOre/LaTeX-Guide/blob/master/Guide/5-%20Labelling.md)
 
 ## Contributing 🖇️
 
