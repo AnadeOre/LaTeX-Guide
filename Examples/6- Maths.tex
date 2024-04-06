@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{hyperref}
+  \author{Latex Guide!}
+  \title{Writing Maths}
+  \date{}
+
+  \begin{document}
+    \maketitle
+    This is some text and if we want to show an equation we just write $f(x) = x^2$, after that we can just continue with the text normally.
+
+    This is some text.
+    \begin{equation*}
+      f(x) = x^2.
+    \end{equation*}
+    Some more text.
+
+    This is some text.
+    \begin{equation*}
+      f(x) = x^2.
+    \end{equation*}
+  
+    Some more text, now indented.
+
+    Some text introducing the equation.
+    \begin{equation}\label{eq:cubed}
+      f(x) = x^3.
+    \end{equation}
+
+    You can see that the function \eqref{eq:cubed} is different than the previous one.
+
+    \begin{align*}
+      J_v+J_{v+1}&\approx \int_{x_{v-1}}^{x_v+1} \gamma dx=\int_{x_{v-1}}^{x+2h} \gamma dx \\ 
+      &=2hf_{v-1}+2h(f_v-f_{v-1})+\frac{\frac{8}{3}h-2h}{2}(f_{v+1}-2fv+f_{v-1})\\
+      &=\frac{h}{3}(f_{v-1}+4f_v+f_{v+1}).
+      \end{align*}
+  \end{document}
